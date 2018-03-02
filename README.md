@@ -1,2 +1,2 @@
-# Chulalongkorn University Computational Molecular Biomedicine Website
+# Chulalongkorn University Computational Molecular Biology Website
 Bootstrap [site](https://cmbcu.github.io/) 
