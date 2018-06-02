@@ -6,149 +6,81 @@
   </div><!-- TOP HEADER -->
   <div class="row">
   	<div class="col-md-3">
-      <h4><a href="#undergrad">Undergraduate senior projects</a></h4>
+      <h4><a href="#undergrad">Senior project</a></h4>
     </div>
     <div class="col-md-3">
-      <h4><a href="#grad">Graduate research</a></h4>
+      <h4><a href="#grad">Graduate student</a></h4>
     </div>
     <div class="col-md-3">
-      <h4><a href="#scientist">Scientists and technicians</a></h4>
+      <h4><a href="#scientist">Researcher</a></h4>
     </div>
     <div class="col-md-3">
-      <h4><a href="#staff">Admins and staffs</a></h4>
+      <h4><a href="#staff">Administrative staff</a></h4>
     </div>	    
   </div><!-- INTERNAL LINKS -->
   <hr />
   
   <div class="row">
   	<div class="col-md-12">
-  	  <h3 id="undergrad">Undergraduate projects <small><a href="#top">back to top</a></small></h3>
-  	     <h4>&emsp;We can accommodate students who are interested in the analysis and interpretation of biological and medical datasets. 
-  	     Background in Biology is helpful but not required. 
-  	     Rather, students should possess some basic programming skill and knowledge in statistical or machine learning techniques.</h4>
-  	     <p />
-  	     <h4><b>Examples of ongoing projects:</b></h4>
-  	     <ol type="I">
-  	     	<h4><li>Automatic classification of bioinformatic tools from publications.</li></h4>
-              &emsp;We are developing a model that can classify whether a published article describe a bioinformatic tool. 
-              Eventually, we aim to create an automatic evaluation and recommendation system for such tools that can help
-              researchers identify the right tool for the right task.
-              <p />
-            <h4><li>HLA-peptide binding affinity prediction.</li></h4>
-              &emsp;We used publicly available HLA-peptide binding datasets to train deep neural network models to predict 
-              whether a peptide will bind to certain HLA allele. Our tool can then be used to select mutant peptides in cancer
-              cells that may be good targets for immunotherapy.
-              <p />
-  	     </ol>
-  	  <!--
-          <h4>Available</h4>
-          <ol type="I">
-              <li>Finding environment-specific genes from a large collection of metagenomics datasets.</li>
-              &emsp;We want to develop a data analysis pipeline for mining genes from large collection of metagenomic datasets from > 50 environments
-              and classify environment-specific genes. Then, we will explore their functions and evolutionary history.
-              <p>
-              <li>Chromosomal recombination patterns following whole-genome duplication in fungi.</li>
-              &emsp;Chromosomal recombination occurs regularly during meiotic cell division and contributes to the evolution of genomes. Using chromosome conformation data of 
-              polyploid yeast that descended from genome duplications or hybridizations, we want to explore the extent that proximity influences recombination pattern.
-              <p>
-              <li>An optimization approach for generating random graphs that mimic biological networks.</li>
-              &emsp;We want to develop new way for generating random graphs with desired properties, and use it to study the pattern underlying some biological networks.
-              <p>
-              <li>A fast tool for detecting horizontal gene transfers in microbial genomes.</li>
-              &emsp;Detection of horizontal gene transfers (i.e. the event where a genomic segment from one microbial species is fused into the genome of another) usually
-              require some prior knowledge on the two participating species. Can we develop a new method that can operate, in a timely manner of course, without that input.
-              <p>
-          </ol>
-              <h4>In progress</h4>
-          <ol type="I">
-              <li>Predicting protein binding affinity from large experiment datasets.</li>
-              &emsp;We combine deep neural network with molecular simulation to predict binding affinity between a given protein and a peptide sequence.
-     -->      
-              <!-- Human leukocyte antigens (HLA) is an important component of human immune system that binds to foreign peptides and elicits immune response. Knowing which
-        peptides will be recognized by the HLA system will allow us to artificially induced immune response that specifically target cells containing such peptides,
-        essentially creating a vaccine. This has an important implication for cancer patients, whose tumor cells will contain many foreign peptides that result from
-        somatic mutations and are not present in their normal cells. However, because the cost for testing large number of peptides is prohibitive and because peptides
-        with low binding affinity to HLA cannot sufficiently elicit immune response, a computational prediction for peptide-HLA affinity with high accuracy is crucial.
-        In this project, we will focus on predicting peptide binding affinity to class II HLA, which is the relevant HLA system for cancer vaccine development, using
-        various machine learning techniques. !-->
-     <!--
-              <p>
-              <li>A curation and recommendation system for academic software tools.</li>
-              &emsp;See project #? on the Research page.
-     -->
-              <!-- More than 10-20 academic software tools, with varying performances, typically exist for processing or analyzing just a single type of biomedical data.
-        This makes selecting the optimal tools quite laborous, especially as some analyses require large amount of computing time and resource. Number of citations
-        and journal impact factor generally are good indicators of the quality of an academic software. However, some biomedical research may benefit from less-used
-        tools that were developed to address specific issues. Another scenario is when a popular software has been replaced by an emerging, better-performing
-        alternative. In this project, we want to develope a system for curating and recommending academic software tools that suit user's goals. Major steps will
-        involve collection of journal publications, identification of software tools, extraction of information that describes the quality and usage of the tools,
-        and finally recommending appropriate tools given a user input. !-->
-     <!--     </ol>
-     -->	  
+  	  <h3 id="undergrad">Senior project <small><a href="#top">back to top</a></small></h3>
+  	     <h4><small>&emsp;Student should contact any of the PIs for information on currently available projects and to discuss his/her interests. We can accommodate student with diverse 
+  	     background (biology, mathematics, computer science, or engineering) but basic programming skills and knowledge in statistical or machine learning techniques will be particularly 
+  	     helpful. Here are some examples of the senior projects or independent studies:
+  	     </small></h4>
+  	     <ul>
+  	     	<li><b>Prediction of binding between protein and peptide via deep learning</b>
+              <h4><small>&emsp;We trained deep neural network models for predicting the binding probability between human leukocyte antigen (HLA) proteins and short antigen peptides.
+              More than 200,000 data points from binding experiments and direct sequencing of HLA-bound peptides were used. This project is part of the cancer vaccine initiative at
+              Faculty of Medicine, Chulalongkorn University.</small></h4>
+                            
+            </li>
+            <li><b>Classification of virulent and harmless viral strains from genomic sequence</b>
+              <h4><small>&emsp;We explored the capability of DNA k-mer profiles for distinguishing virulent and harmless strains among closely related viruses and for predicting the direction
+              of viral evolution over time.</small></h4>
+            </li>
+            
+  	     	<li><b>Automatic curation of bioinformatics tools from literature</b>
+              <h4><small>&emsp;Useful bioinformatics tools get published at an ever increasing rate. To identify the best tools, it is critical to develop a platform that can automatically curate 
+              tool-describing publications and evaluate theirs impact. This project is an initial step toward building such system.</small></h4>
+              </li>
+  	     </ul>  
   	</div>
   </div>
-  <!--
-     <div class="row featurette">
-       <div class="col-md-7">
-         <h2 class="featurette-heading">Featurette heading. <span class="text-muted">Muted heading.</span></h2>
-         <p class="lead">content</p>
-       </div>
-       <div class="col-md-5">
-         <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-       </div>
-     </div><!-- UNDERGRAD -->
-     <hr class="featurette-divider">
-     
+     <hr class="featurette-divider">     
      <div class="row">
   	<div class="col-md-12">
-  	  <h3 id="grad">Graduate research <small><a href="#top">back to top</a></small></h3>
-          <h4>&emsp;Interested Master's or PhD students should contact any of the PIs for more information.</h4>
+  	  <h3 id="grad">Graduate student <small><a href="#top">back to top</a></small></h3>
+          <h4><small>&emsp;Prospective students may contact any of the PIs for more information on the appropriate graduate programs 
+          at Chulalongkorn University. At present, we can accept new students through the following programs:</small></h4>
+          <ul>
+            <!-- PHD -->
+          	<li>&emsp;<a href="http://grad.md.chula.ac.th/curriculum.php" target="_blank">Ph.D. in Biomedical Sciences and Biotechnology (International)</a> at Faculty of Medicine</li>
+          	<li>&emsp;<a href="http://grad.md.chula.ac.th/curriculum.php" target="_blank">Ph.D. in Medical Sciences</a> at Faculty of Medicine</li>
+          	<li>&emsp;<a href="http://www.bioinfo.sc.chula.ac.th/" target="_blank">Ph.D. in Bioinformatics and Computational Biology</a> at Chulalongkorn Graduate School</li>
+          	<li>&emsp;<a href="http://www.biot.sc.chula.ac.th/" target="_blank">Ph.D. in Biotechnology</a> at Faculty of Science</li>
+          	<li>&emsp;<a href="https://www.cp.eng.chula.ac.th/future/graduate/phd" target="_blank">Ph.D. in Computer Engineering</a> at Faculty of Engineering</li>
+          	<!-- MASTER -->
+          	<li>&emsp;<a href="http://grad.md.chula.ac.th/curriculum.php" target="_blank">M.Sc. in Medical Sciences</a> at Faculty of Medicine</li>
+          	<li>&emsp;<a href="http://www.biot.sc.chula.ac.th/" target="_blank">M.Sc. in Biotechnology</a> at Faculty of Science</li>
+          	<li>&emsp;<a href="https://www.cp.eng.chula.ac.th/future/graduate/master-computerengineering" target="_blank">M.Eng. in Computer Engineering</a> at Faculty of Engineering</li>
+          	<li>&emsp;<a href="https://www.cp.eng.chula.ac.th/future/graduate/master-computerscience" target="_blank">M.Sc. in Computer Science</a> at Faculty of Engineering</li>
+          </ul>     
+          
+          
   	</div>
   </div>
-  <!--
-     <div class="row featurette">
-       <div class="col-md-7">
-         <h2 class="featurette-heading">Featurette heading. <span class="text-muted">Muted heading.</span></h2>
-         <p class="lead">content</p>
-       </div>
-       <div class="col-md-5">
-         <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-       </div>
-     </div><!-- GRAD -->
-     <hr class="featurette-divider">
-     
+     <hr class="featurette-divider">     
      <div class="row">
   	<div class="col-md-12">
-  	  <h3 id="scientist">Scientists and technicians <small><a href="#top">back to top</a></small></h3>
-          <h4>&emsp;We do not have open position for full-time research assistants at this time.</h4>
+  	  <h3 id="scientist">Researcher <small><a href="#top">back to top</a></small></h3>
+          <h4><small>&emsp;We do not have open position for full-time researcher or research assistant at this time.</small></h4>
   	</div>
   </div>
-  <!--
-     <div class="row featurette">
-       <div class="col-md-7">
-         <h2 class="featurette-heading">Featurette heading. <span class="text-muted">Muted heading.</span></h2>
-         <p class="lead">content</p>
-       </div>
-       <div class="col-md-5">
-         <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-       </div>
-     </div><!-- SCIENTIST -->
-     <hr class="featurette-divider">
-     
+     <hr class="featurette-divider">    
      <div class="row">
   	<div class="col-md-12">
-  	  <h3 id="staff">Admins and staffs <small><a href="#top">back to top</a></small></h3>
-          <h4>&emsp;We do not have open position for full-time administrators at this time.</h4>
+  	  <h3 id="staff">Administrative staff <small><a href="#top">back to top</a></small></h3>
+          <h4><small>&emsp;We do not have open position for full-time administrative staff at this time.</small></h4>
   	</div>
   </div>
-  <!--
-     <div class="row featurette">
-       <div class="col-md-7">
-         <h2 class="featurette-heading">Featurette heading. <span class="text-muted">Muted heading.</span></h2>
-         <p class="lead">content</p>
-       </div>
-       <div class="col-md-5">
-         <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-       </div>
-     </div><!-- STAFF -->
  </div>
