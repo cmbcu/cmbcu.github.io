@@ -1,3 +1,5 @@
 *.tmp
 *.db
 content/~$search.docx
+.project
+.DS_Store
